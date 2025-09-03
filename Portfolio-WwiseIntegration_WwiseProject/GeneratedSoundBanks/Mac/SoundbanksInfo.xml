@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{2B567AD1-4F91-6754-AE53-95CA0D133383}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="207908541" Name="Time_of_Day"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="970838549" Name="Surface_Materials">
+					<Switches>
+						<Switch Id="1216965916" Name="Stone"/>
+						<Switch Id="2058049674" Name="Wood"/>
+						<Switch Id="4248645337" Name="Grass"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{E0C61FC9-6E48-E3A7-E3A7-8390D847EA7D}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="60296415" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_sfx_fs_grass.wav</ShortName>
+					<CachePath>SFX/player_sfx_fs_grass_9168EB5A.wem</CachePath>
+				</File>
+				<File Id="82582721" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>493091-BRLFX-TFV1-0275-Footsteps_-Jumping_in_fake_foliage_5.wav</ShortName>
+					<CachePath>SFX/493091-BRLFX-TFV1-0275-Footsteps_-Jumping_in_fake_foliage_5_DA3E495A.wem</CachePath>
+				</File>
+				<File Id="133545714" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>amb_crickets_loop.wav</ShortName>
+					<Path>Media/133545714.wem</Path>
+					<CachePath>SFX/amb_crickets_loop_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="175638683" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_sfx_fs_grass.wav</ShortName>
+					<CachePath>SFX/player_sfx_fs_grass_982F3718.wem</CachePath>
+				</File>
+				<File Id="210263574" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>amb_wind_loop.wav</ShortName>
+					<Path>Media/210263574.wem</Path>
+					<CachePath>SFX/amb_wind_loop_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="264527229" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>493090-BRLFX-TFV1-0274-Footsteps_-Jumping_in_fake_foliage_4.wav</ShortName>
+					<CachePath>SFX/493090-BRLFX-TFV1-0274-Footsteps_-Jumping_in_fake_foliage_4_E5A22C22.wem</CachePath>
+				</File>
+				<File Id="275483781" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_sfx_fs_grass.wav</ShortName>
+					<CachePath>SFX/player_sfx_fs_grass_284F1F7C.wem</CachePath>
+				</File>
+				<File Id="320626082" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>493090-BRLFX-TFV1-0274-Footsteps_-Jumping_in_fake_foliage_4.wav</ShortName>
+					<CachePath>SFX/493090-BRLFX-TFV1-0274-Footsteps_-Jumping_in_fake_foliage_4_DC6DA8EB.wem</CachePath>
+				</File>
+				<File Id="485656362" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_sfx_fs_grass.wav</ShortName>
+					<CachePath>SFX/player_sfx_fs_grass_BC4EC11E.wem</CachePath>
+				</File>
+				<File Id="497821080" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_sfx_fs_grass.wav</ShortName>
+					<CachePath>SFX/player_sfx_fs_grass_A2E440BC.wem</CachePath>
+				</File>
+				<File Id="578438028" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_sfx_fs_grass.wav</ShortName>
+					<CachePath>SFX/player_sfx_fs_grass_1C9AFD93.wem</CachePath>
+				</File>
+				<File Id="664161855" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>493091-BRLFX-TFV1-0275-Footsteps_-Jumping_in_fake_foliage_5.wav</ShortName>
+					<CachePath>SFX/493091-BRLFX-TFV1-0275-Footsteps_-Jumping_in_fake_foliage_5_3CC0FFC9.wem</CachePath>
+				</File>
+				<File Id="711126695" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_sfx_fs_grass.wav</ShortName>
+					<CachePath>SFX/player_sfx_fs_grass_18DF93D6.wem</CachePath>
+				</File>
+				<File Id="918016846" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_sfx_fs_grass.wav</ShortName>
+					<CachePath>SFX/player_sfx_fs_grass_C545AB48.wem</CachePath>
+				</File>
+				<File Id="941842614" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>493092-BRLFX-TFV1-0276-Footsteps_-Jumping_in_fake_foliage_6.wav</ShortName>
+					<CachePath>SFX/493092-BRLFX-TFV1-0276-Footsteps_-Jumping_in_fake_foliage_6_EE32AAEB.wem</CachePath>
+				</File>
+				<File Id="951145813" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>493092-BRLFX-TFV1-0276-Footsteps_-Jumping_in_fake_foliage_6.wav</ShortName>
+					<CachePath>SFX/493092-BRLFX-TFV1-0276-Footsteps_-Jumping_in_fake_foliage_6_601AED17.wem</CachePath>
+				</File>
+				<File Id="1054064076" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>amb_earlybirds_loop.wav</ShortName>
+					<Path>Media/1054064076.wem</Path>
+					<CachePath>SFX/amb_earlybirds_loop_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="283716264" Name="Parametric EQ (Custom)" LibName="Wwise Parametric EQ" LibId="6881283"/>
+				</Custom>
+				<ShareSets>
+					<Plugin Id="3604890626" Name="High_Pass_60Hz" LibName="Wwise Parametric EQ" LibId="6881283"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="278617630" Name="play_ambience" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="133545714"/>
+						<MediaRef Id="210263574"/>
+						<MediaRef Id="1054064076"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4276063004" Name="player_fs" MaxAttenuation="6" DurationType="OneShot" DurationMin="0" DurationMax="0.47413787">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="970838549" Id="4248645337" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="60296415"/>
+								<MediaRef Id="175638683"/>
+								<MediaRef Id="275483781"/>
+								<MediaRef Id="485656362"/>
+								<MediaRef Id="497821080"/>
+								<MediaRef Id="578438028"/>
+								<MediaRef Id="711126695"/>
+								<MediaRef Id="918016846"/>
+							</MediaRefs>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="283716264"/>
+								</Custom>
+							</PluginRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1305133589" Name="player_jump" MaxAttenuation="6" DurationType="OneShot" DurationMin="0" DurationMax="0.46172985">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="970838549" Id="4248645337" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="82582721"/>
+								<MediaRef Id="264527229"/>
+								<MediaRef Id="941842614"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3629196698" Name="player_land" MaxAttenuation="6" DurationType="OneShot" DurationMin="0" DurationMax="0.51644886">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="970838549" Id="4248645337" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="320626082"/>
+								<MediaRef Id="664161855"/>
+								<MediaRef Id="951145813"/>
+							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="3604890626"/>
+								</ShareSets>
+							</PluginRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="207908541" Name="Time_of_Day"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="970838549" Name="Surface_Materials">
+					<Switches>
+						<Switch Id="1216965916" Name="Stone"/>
+						<Switch Id="2058049674" Name="Wood"/>
+						<Switch Id="4248645337" Name="Grass"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{3C77E4B7-EDFF-05D6-CB16-2365015F7A7D}</FileHash>
+</SoundBanksInfo>

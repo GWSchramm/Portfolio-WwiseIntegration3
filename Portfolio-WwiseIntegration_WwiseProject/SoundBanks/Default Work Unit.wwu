@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1E61045D-6C72-4403-8B5C-5EA9C69B2481}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{1E61045D-6C72-4403-8B5C-5EA9C69B2481}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{8156F347-684B-4B84-9DA0-0E88B709D448}">
+					<ObjectInclusionList>
+						<ObjectRef Name="play_ambience" ID="{C6D74495-F0C6-4232-87BF-C16519A3BDFB}" WorkUnitID="{ABB316B2-5801-4885-B0BB-846F1E2680C3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="player_fs" ID="{9D37A717-9ABD-48E6-91D2-C2F7083FA2CB}" WorkUnitID="{ABB316B2-5801-4885-B0BB-846F1E2680C3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="player_land" ID="{D21F45FE-51BC-4C3F-8B16-3A8D5A92275D}" WorkUnitID="{ABB316B2-5801-4885-B0BB-846F1E2680C3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="player_jump" ID="{17AFEBCE-16F2-4E96-B806-F2A4D9672D60}" WorkUnitID="{ABB316B2-5801-4885-B0BB-846F1E2680C3}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

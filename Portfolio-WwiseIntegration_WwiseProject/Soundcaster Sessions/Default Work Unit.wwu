@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{01A4D9A7-6E35-48D2-9653-A6E224F025D0}" SchemaVersion="119">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{01A4D9A7-6E35-48D2-9653-A6E224F025D0}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="main" ID="{4128B994-065C-4CA7-BB8E-07526CA885F4}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="play_ambience" ID="{C6D74495-F0C6-4232-87BF-C16519A3BDFB}" WorkUnitID="{ABB316B2-5801-4885-B0BB-846F1E2680C3}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Time_of_Day" ID="{C1B5AE91-9380-44CE-8D32-37600F2928E3}"/>
+							<Value>2.50171073094868</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

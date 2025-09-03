@@ -1,0 +1,42 @@
+Event	ID	Name			Wwise Object Path	Notes
+	278617630	play_ambience			\Default Work Unit\World\play_ambience	
+	1305133589	player_jump			\Default Work Unit\Player\player_jump	
+	3629196698	player_land			\Default Work Unit\Player\player_land	
+	4276063004	player_fs			\Default Work Unit\Player\player_fs	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	970838549	Surface_Materials			\Default Work Unit\Surface_Materials	
+
+Switch	ID	Name	Switch Group			Notes
+	1216965916	Stone	Surface_Materials			
+	2058049674	Wood	Surface_Materials			
+	4248645337	Grass	Surface_Materials			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	207908541	Time_of_Day			\Default Work Unit\Time_of_Day	
+
+Effect plug-ins	ID	Name	Type				Notes
+	283716264	Parametric EQ (Custom)	Wwise Parametric EQ			
+	3604890626	High_Pass_60Hz	Wwise Parametric EQ			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	60296415	player_sfx_fs_grass_06	C:\Users\glass\OneDrive\Desktop\Personal\Unity Projects\Portfolio-WwiseIntegration\Portfolio-WwiseIntegration_WwiseProject\.cache\Mac\SFX\player_sfx_fs_grass_9168EB5A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\player_fs_switch\player_fs_grass\player_sfx_fs_grass_06		43682
+	82582721	player_sfx_jump_grass_02	C:\Users\glass\OneDrive\Desktop\Personal\Unity Projects\Portfolio-WwiseIntegration\Portfolio-WwiseIntegration_WwiseProject\.cache\Mac\SFX\493091-BRLFX-TFV1-0275-Footsteps_-Jumping_in_fake_foliage_5_DA3E495A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Jumps\player_jump_switch\player_jump_grass\player_sfx_jump_grass_02		34354
+	175638683	player_sfx_fs_grass_07	C:\Users\glass\OneDrive\Desktop\Personal\Unity Projects\Portfolio-WwiseIntegration\Portfolio-WwiseIntegration_WwiseProject\.cache\Mac\SFX\player_sfx_fs_grass_982F3718.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\player_fs_switch\player_fs_grass\player_sfx_fs_grass_07		43682
+	264527229	player_sfx_jump_grass_01	C:\Users\glass\OneDrive\Desktop\Personal\Unity Projects\Portfolio-WwiseIntegration\Portfolio-WwiseIntegration_WwiseProject\.cache\Mac\SFX\493090-BRLFX-TFV1-0274-Footsteps_-Jumping_in_fake_foliage_4_E5A22C22.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Jumps\player_jump_switch\player_jump_grass\player_sfx_jump_grass_01		32164
+	275483781	player_sfx_fs_grass_01	C:\Users\glass\OneDrive\Desktop\Personal\Unity Projects\Portfolio-WwiseIntegration\Portfolio-WwiseIntegration_WwiseProject\.cache\Mac\SFX\player_sfx_fs_grass_284F1F7C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\player_fs_switch\player_fs_grass\player_sfx_fs_grass_01		39866
+	320626082	player_sfx_land_grass_01	C:\Users\glass\OneDrive\Desktop\Personal\Unity Projects\Portfolio-WwiseIntegration\Portfolio-WwiseIntegration_WwiseProject\.cache\Mac\SFX\493090-BRLFX-TFV1-0274-Footsteps_-Jumping_in_fake_foliage_4_DC6DA8EB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Landing\player_land_switch\player_land_grass\player_sfx_land_grass_01		45560
+	485656362	player_sfx_fs_grass_04	C:\Users\glass\OneDrive\Desktop\Personal\Unity Projects\Portfolio-WwiseIntegration\Portfolio-WwiseIntegration_WwiseProject\.cache\Mac\SFX\player_sfx_fs_grass_BC4EC11E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\player_fs_switch\player_fs_grass\player_sfx_fs_grass_04		43246
+	497821080	player_sfx_fs_grass_02	C:\Users\glass\OneDrive\Desktop\Personal\Unity Projects\Portfolio-WwiseIntegration\Portfolio-WwiseIntegration_WwiseProject\.cache\Mac\SFX\player_sfx_fs_grass_A2E440BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\player_fs_switch\player_fs_grass\player_sfx_fs_grass_02		39866
+	578438028	player_sfx_fs_grass_03	C:\Users\glass\OneDrive\Desktop\Personal\Unity Projects\Portfolio-WwiseIntegration\Portfolio-WwiseIntegration_WwiseProject\.cache\Mac\SFX\player_sfx_fs_grass_1C9AFD93.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\player_fs_switch\player_fs_grass\player_sfx_fs_grass_03		33354
+	664161855	player_sfx_land_grass_02	C:\Users\glass\OneDrive\Desktop\Personal\Unity Projects\Portfolio-WwiseIntegration\Portfolio-WwiseIntegration_WwiseProject\.cache\Mac\SFX\493091-BRLFX-TFV1-0275-Footsteps_-Jumping_in_fake_foliage_5_3CC0FFC9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Landing\player_land_switch\player_land_grass\player_sfx_land_grass_02		32352
+	711126695	player_sfx_fs_grass_05	C:\Users\glass\OneDrive\Desktop\Personal\Unity Projects\Portfolio-WwiseIntegration\Portfolio-WwiseIntegration_WwiseProject\.cache\Mac\SFX\player_sfx_fs_grass_18DF93D6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\player_fs_switch\player_fs_grass\player_sfx_fs_grass_05		34786
+	918016846	player_sfx_fs_grass_08	C:\Users\glass\OneDrive\Desktop\Personal\Unity Projects\Portfolio-WwiseIntegration\Portfolio-WwiseIntegration_WwiseProject\.cache\Mac\SFX\player_sfx_fs_grass_C545AB48.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\player_fs_switch\player_fs_grass\player_sfx_fs_grass_08		36320
+	941842614	player_sfx_jump_grass_03	C:\Users\glass\OneDrive\Desktop\Personal\Unity Projects\Portfolio-WwiseIntegration\Portfolio-WwiseIntegration_WwiseProject\.cache\Mac\SFX\493092-BRLFX-TFV1-0276-Footsteps_-Jumping_in_fake_foliage_6_EE32AAEB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Jumps\player_jump_switch\player_jump_grass\player_sfx_jump_grass_03		43160
+	951145813	player_sfx_land_grass_03	C:\Users\glass\OneDrive\Desktop\Personal\Unity Projects\Portfolio-WwiseIntegration\Portfolio-WwiseIntegration_WwiseProject\.cache\Mac\SFX\493092-BRLFX-TFV1-0276-Footsteps_-Jumping_in_fake_foliage_6_601AED17.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Landing\player_land_switch\player_land_grass\player_sfx_land_grass_03		41298
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	133545714	amb_crickets_loop	C:\Users\glass\OneDrive\Desktop\Personal\Unity Projects\Portfolio-WwiseIntegration\Portfolio-WwiseIntegration_WwiseProject\.cache\Mac\SFX\amb_crickets_loop_FBC78EF0.wem	133545714.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\DayNight_Blend\amb_crickets_loop	
+	210263574	amb_wind_loop	C:\Users\glass\OneDrive\Desktop\Personal\Unity Projects\Portfolio-WwiseIntegration\Portfolio-WwiseIntegration_WwiseProject\.cache\Mac\SFX\amb_wind_loop_FBC78EF0.wem	210263574.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\amb_wind_loop	
+	1054064076	amb_earlybirds_loop	C:\Users\glass\OneDrive\Desktop\Personal\Unity Projects\Portfolio-WwiseIntegration\Portfolio-WwiseIntegration_WwiseProject\.cache\Mac\SFX\amb_earlybirds_loop_FBC78EF0.wem	1054064076.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\DayNight_Blend\amb_earlybirds_loop	
+

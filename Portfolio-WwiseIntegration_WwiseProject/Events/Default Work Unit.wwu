@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ABB316B2-5801-4885-B0BB-846F1E2680C3}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{ABB316B2-5801-4885-B0BB-846F1E2680C3}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Player" ID="{DA9674EC-1627-451C-BF2F-460083E8B795}" ShortID="459051762">
+					<ChildrenList>
+						<Event Name="player_jump" ID="{17AFEBCE-16F2-4E96-B806-F2A4D9672D60}">
+							<ChildrenList>
+								<Action Name="" ID="{6EBDDE10-6F6E-4A82-BB14-CB0738F6ED10}" ShortID="807192098">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="player_jump_switch" ID="{5DE2E86E-8819-422B-8644-B6C22A1C13A3}" WorkUnitID="{2C94803C-245E-4BE2-BB55-3BD0715A5F45}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="player_fs" ID="{9D37A717-9ABD-48E6-91D2-C2F7083FA2CB}">
+							<ChildrenList>
+								<Action Name="" ID="{F4383636-7474-4848-AFB8-EA569479534F}" ShortID="173499941">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="player_fs_switch" ID="{9611B782-BE10-4634-80DF-C4FD901BE1CF}" WorkUnitID="{2C94803C-245E-4BE2-BB55-3BD0715A5F45}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="player_land" ID="{D21F45FE-51BC-4C3F-8B16-3A8D5A92275D}">
+							<ChildrenList>
+								<Action Name="" ID="{1918B4F7-02DB-48B4-9FBA-BF3FAEB9A675}" ShortID="95997347">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="player_land_switch" ID="{020D14EA-2C77-452D-BD8F-29D214FA9041}" WorkUnitID="{2C94803C-245E-4BE2-BB55-3BD0715A5F45}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="World" ID="{641856BD-972B-4A35-989D-BCA2D153E237}" ShortID="361659066">
+					<ChildrenList>
+						<Event Name="play_ambience" ID="{C6D74495-F0C6-4232-87BF-C16519A3BDFB}">
+							<ChildrenList>
+								<Action Name="" ID="{77FE7C0D-BD78-4AED-83D3-8829D72951A6}" ShortID="909317022">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DayNight_Blend" ID="{E7C6B920-A63D-4D2D-9134-D13C44A912EF}" WorkUnitID="{2C94803C-245E-4BE2-BB55-3BD0715A5F45}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E68B0208-1A72-45F9-8A92-9F5EC0D7218E}" ShortID="338919851">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_wind_loop" ID="{69BCF6F2-D47C-48CE-A304-96309D455E7F}" WorkUnitID="{2C94803C-245E-4BE2-BB55-3BD0715A5F45}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
