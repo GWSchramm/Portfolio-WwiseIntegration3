@@ -151,8 +151,8 @@ MonoBehaviour:
         guid: 17a7379dbd9ae64891d2c2f7083fa2cb
       Path: Events\Default Work Unit\Player\player_fs
       maxAttenuation: 6
-      maxDuration: 0.47413787
-      minDuration: 0
+      maxDuration: 0.8519363
+      minDuration: 0.20419352
     - name: player_jump
       guid: ceebaf17f216964eb806f2a4d9672d60
       id: 1305133589
@@ -171,8 +171,8 @@ MonoBehaviour:
         guid: ceebaf17f216964eb806f2a4d9672d60
       Path: Events\Default Work Unit\Player\player_jump
       maxAttenuation: 6
-      maxDuration: 0.46172985
-      minDuration: 0
+      maxDuration: 0.504102
+      minDuration: 0.28862932
     - name: player_land
       guid: fe451fd2bc513f4c8b163a8d5a92275d
       id: 3629196698
@@ -191,8 +191,8 @@ MonoBehaviour:
         guid: fe451fd2bc513f4c8b163a8d5a92275d
       Path: Events\Default Work Unit\Player\player_land
       maxAttenuation: 6
-      maxDuration: 0.51644886
-      minDuration: 0
+      maxDuration: 0.6107891
+      minDuration: 0.22791536
     - name: World
       guid: bd5618642b97354a989dbca2d153e237
       id: 2609808943
@@ -347,7 +347,7 @@ MonoBehaviour:
     m_lastTime: -8584534043782795294
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000700000008000000090000000a0000000b000000840000008500000086000000
+  ExpandedWaapiItemIds: 05000000060000000700000008000000090000000a0000000b0000000e0000000f00000010000000840000008500000086000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

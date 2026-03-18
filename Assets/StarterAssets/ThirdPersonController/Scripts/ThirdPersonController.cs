@@ -30,12 +30,7 @@ namespace StarterAssets
 
 
 
-        //Wwise Events
-        [Header("Wwise Events")]
-        public AK.Wwise.Event player_sfx_land;
-        public AK.Wwise.Event player_sfx_fs;
-        public AK.Wwise.Event player_sfx_jump;
-        public GameObject fs_sfx_source;
+
 
         //old audio variables
         //public AudioClip LandingAudioClip;
@@ -84,6 +79,13 @@ namespace StarterAssets
 
         [Tooltip("For locking the camera position on all axis")]
         public bool LockCameraPosition = false;
+
+        //Wwise Events
+        [Header("Wwise Events")]
+        public AK.Wwise.Event player_sfx_land;
+        public AK.Wwise.Event player_sfx_fs;
+        public AK.Wwise.Event player_sfx_jump;
+        //public GameObject fs_sfx_source;
 
         // cinemachine
         private float _cinemachineTargetYaw;
@@ -316,7 +318,7 @@ namespace StarterAssets
                     _verticalVelocity = Mathf.Sqrt(JumpHeight * -2f * Gravity);
 
                     //wwise event for Jump
-                    player_sfx_jump.Post(fs_sfx_source);
+                    player_sfx_jump.Post(gameObject);
 
                     // update animator if using character
                     if (_hasAnimator)
@@ -387,7 +389,7 @@ namespace StarterAssets
             if (animationEvent.animatorClipInfo.weight > 0.5f)
             {
                 //wwise event for footstep
-                player_sfx_fs.Post(fs_sfx_source);
+                player_sfx_fs.Post(gameObject);
 
 
                
@@ -399,7 +401,7 @@ namespace StarterAssets
             if (animationEvent.animatorClipInfo.weight > 0.2f)
             {
                 //wwise event for landing sfx
-                player_sfx_land.Post(fs_sfx_source);
+                player_sfx_land.Post(gameObject);
 
                 Debug.Log("Landed - playing landing sound.");
 

@@ -9,6 +9,9 @@ public class SimpleDayNightCycle : MonoBehaviour
     public float timeOfDay = 12f; // 0-24 hours
     public float dayLength = 60f; // Seconds for a full cycle
 
+    [Header("Time Control")]
+    public bool pauseTime = false; // <-- Added checkbox
+
     [Header("Sun Settings")]
     public Light sunLight;
     public Gradient sunColor;
@@ -78,7 +81,7 @@ public class SimpleDayNightCycle : MonoBehaviour
 
     private void Update()
     {
-        if (Application.isPlaying)
+        if (Application.isPlaying && !pauseTime)
         {
             timeOfDay += (Time.deltaTime / dayLength) * 24f;
             if (timeOfDay >= 24f) timeOfDay -= 24f;

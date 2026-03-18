@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7dc98de2e215814181f65ec08380e00, type: 3}
+  m_Name: 844849D6-8D89-4397-891D-E62F9844D3D5
+  m_EditorClassIdentifier: 
+  objectName: Surface_Materials
+  id: 970838549
+  guid: 844849D6-8D89-4397-891D-E62F9844D3D5
