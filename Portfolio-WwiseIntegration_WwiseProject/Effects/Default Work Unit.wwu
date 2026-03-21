@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{6C353DC7-B41D-4155-9073-FD10D4F3BEF7}" SchemaVersion="119">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{6C353DC7-B41D-4155-9073-FD10D4F3BEF7}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{6C353DC7-B41D-4155-9073-FD10D4F3BEF7}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="MicrophoneMeter" ID="{4C15A5E4-68CB-4FB9-BA33-7B47E29DFC43}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">					<PluginData>
+	<GameParameter Name="Microphone_Level" ID="{C7419970-D5E6-4ACF-90BD-6D20FD1D25A6}"/>
+</PluginData>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

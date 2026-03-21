@@ -9,6 +9,13 @@
 						<Property Name="Max" Type="Real64" Value="24"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="Microphone_Level" ID="{C7419970-D5E6-4ACF-90BD-6D20FD1D25A6}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

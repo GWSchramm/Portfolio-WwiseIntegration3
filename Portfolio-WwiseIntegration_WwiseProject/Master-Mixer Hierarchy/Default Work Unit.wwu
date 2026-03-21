@@ -9,6 +9,17 @@
 							<ObjectRef Name="System" ID="{4311B4F4-C0CB-4B96-A987-A23C018C42DF}" WorkUnitID="{24F0939E-A981-47B1-B5B0-582AE4D7D424}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Microphone" ID="{2B34D7CB-A6F2-4A35-8BB9-E5B576AA4E51}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-96</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

@@ -4,10 +4,19 @@
 		<WorkUnit Name="Default Work Unit" ID="{2C94803C-245E-4BE2-BB55-3BD0715A5F45}" PersistMode="Standalone">
 			<ChildrenList>
 				<Folder Name="Player" ID="{25B1466B-2988-44E7-84B0-6C8B798912DC}" ShortID="601228213">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="21"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<ActorMixer Name="Footsteps" ID="{D32FD19A-EFD8-4B9F-BB3B-B540BF600376}" ShortID="203442364">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>10</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -358,7 +367,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-9</Value>
+														<Value>-10</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -561,6 +570,11 @@
 															</Modifier>
 														</ModifierInfo>
 													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
@@ -1649,9 +1663,49 @@
 								</SwitchContainer>
 							</ChildrenList>
 						</ActorMixer>
+						<Sound Name="PlayerMic" ID="{14D27B7A-A157-4B6B-91B2-B69FA6FA5075}" ShortID="10553294">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{28FC3D12-419E-4694-9600-D6770F4DE413}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Microphone" ID="{2B34D7CB-A6F2-4A35-8BB9-E5B576AA4E51}" WorkUnitID="{87B9487E-A299-4468-9634-8A986401E02F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="Audio Input" ID="{388D70ED-BF7B-458A-BEC9-030246F737E1}" ShortID="265749257" PluginName="Wwise Audio Input" CompanyID="0" PluginID="200">
+									<PropertyList>
+										<Property Name="AudioInputGain" Type="Real32" Value="0"/>
+									</PropertyList>
+									<Language>SFX</Language>
+								</SourcePlugin>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{405A633C-8311-485B-9F73-F007D682F848}" ShortID="1025436325">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+														<ObjectRef Name="MicrophoneMeter" ID="{4C15A5E4-68CB-4FB9-BA33-7B47E29DFC43}" WorkUnitID="{6C353DC7-B41D-4155-9073-FD10D4F3BEF7}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="Audio Input" ID="{388D70ED-BF7B-458A-BEC9-030246F737E1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="World" ID="{1A40D0BA-3865-4DE1-8FC9-F41E39D2670D}" ShortID="786937626">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<BlendContainer Name="DayNight_Blend" ID="{E7C6B920-A63D-4D2D-9134-D13C44A912EF}" ShortID="168214854">
 							<ReferenceList>

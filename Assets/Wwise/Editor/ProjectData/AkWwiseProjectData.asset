@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 94cb25ca53e37f4ea5f95652f848ef86
     GuidInternal: 
-    m_lastTime: -8584534043783057004
+    m_lastTime: -8584277513874322029
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 7e48b98799a2684496348a986401e02f
     GuidInternal: 
-    m_lastTime: -8584534043784684984
+    m_lastTime: -8584274850230515926
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -54,6 +54,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Microphone
+      guid: cbd7342bf2a6354a8bb9e5b576aa4e51
+      id: 2872041301
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7e48b98799a2684496348a986401e02f
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Microphone
+        ObjectType: 2
+        guid: cbd7342bf2a6354a8bb9e5b576aa4e51
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Microphone
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -66,7 +83,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 5d04611e726c03448b5c5ea9c69b2481
     GuidInternal: 
-    m_lastTime: -8584465840812007375
+    m_lastTime: -8584274879036096073
     List:
     - name: Main
       guid: 47f356814b68844b9da00e88b709d448
@@ -94,8 +111,28 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: b216b3ab01588548b0bb846f1e2680c3
     GuidInternal: 
-    m_lastTime: -8584447514265050581
+    m_lastTime: -8584274879035964050
     List:
+    - name: enable_microphone
+      guid: 876614ca3df48740a94c6d458375c400
+      id: 3011241699
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b216b3ab01588548b0bb846f1e2680c3
+      - ElementName: Utility
+        ObjectType: 4
+        guid: 188963df43bb22488709c5fbb0176836
+      - ElementName: enable_microphone
+        ObjectType: 3
+        guid: 876614ca3df48740a94c6d458375c400
+      Path: Events\Default Work Unit\Utility\enable_microphone
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: play_ambience
       guid: 9544d7c6c6f0324287bfc16519a3bdfb
       id: 278617630
@@ -114,8 +151,8 @@ MonoBehaviour:
         guid: 9544d7c6c6f0324287bfc16519a3bdfb
       Path: Events\Default Work Unit\World\play_ambience
       maxAttenuation: 0
-      maxDuration: 180
-      minDuration: 180
+      maxDuration: -1
+      minDuration: -1
     - name: Player
       guid: ec7496da27161c45bf2f460083e8b795
       id: 1069431850
@@ -193,6 +230,23 @@ MonoBehaviour:
       maxAttenuation: 6
       maxDuration: 0.6107891
       minDuration: 0.22791536
+    - name: Utility
+      guid: 188963df43bb22488709c5fbb0176836
+      id: 2378126911
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b216b3ab01588548b0bb846f1e2680c3
+      - ElementName: Utility
+        ObjectType: 4
+        guid: 188963df43bb22488709c5fbb0176836
+      Path: Events\Default Work Unit\Utility
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: World
       guid: bd5618642b97354a989dbca2d153e237
       id: 2609808943
@@ -222,8 +276,22 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: d59188e8eef7874baa8ce0748e0f93db
     GuidInternal: 
-    m_lastTime: -8584465851215578145
+    m_lastTime: -8584274848768136830
     List:
+    - name: Microphone_Level
+      guid: 709941c7e6d5cf4a90bd6d20fd1d25a6
+      id: 2544211442
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d59188e8eef7874baa8ce0748e0f93db
+      - ElementName: Microphone_Level
+        ObjectType: 13
+        guid: 709941c7e6d5cf4a90bd6d20fd1d25a6
+      Path: Game Parameters\Default Work Unit\Microphone_Level
     - name: Time_of_Day
       guid: 91aeb5c18093ce448d3237600f2928e3
       id: 207908541
@@ -250,7 +318,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: cb341fbe7a293440affd64cff399bb18
     GuidInternal: 
-    m_lastTime: -8584534043783793873
+    m_lastTime: -8584277513874332052
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -264,7 +332,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 19c39f693fa25742b4b575ac82f97d27
     GuidInternal: 
-    m_lastTime: -8584533992740085083
+    m_lastTime: -8584277513874322029
     List:
     - name: Surface_Materials
       guid: d6494884898d9743891de62f9844d3d5
@@ -344,10 +412,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 00d71a2d05b0a342bb40e58640cdf29e
     GuidInternal: 
-    m_lastTime: -8584534043782795294
+    m_lastTime: -8584277513874322029
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000700000008000000090000000a0000000b0000000e0000000f00000010000000840000008500000086000000
+  ExpandedWaapiItemIds: 05000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000015000000160000001f000000840000008500000086000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

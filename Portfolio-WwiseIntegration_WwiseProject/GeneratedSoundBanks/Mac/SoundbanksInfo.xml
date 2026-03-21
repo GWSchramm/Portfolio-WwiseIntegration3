@@ -34,152 +34,152 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{01FD052C-BEFB-0B34-EBEA-575FBE8666E8}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{01EF3842-A2EE-3800-FB61-BB2A7A276F16}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
 				<File Id="51077266" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>158534-Feet-Footsteps-Wood-Parquet-Boots-Rubber_Sole-Winter_Boots-Sorel-Walk-Loop.wav</ShortName>
-					<CachePath>SFX/158534-Feet-Footsteps-Wood-Parquet-Boots-Rubber_Sole-Winter_Boots-Sorel-Walk-Loop_B91B3281.wem</CachePath>
+					<CachePath>SFX/158534-Feet-Footsteps-Wood-Parquet-Boots-Rubber_Sole-Winter_Boots-Sorel-Walk-Loop_EB3557C1.wem</CachePath>
 				</File>
 				<File Id="54124628" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>158534-Feet-Footsteps-Wood-Parquet-Boots-Rubber_Sole-Winter_Boots-Sorel-Walk-Loop.wav</ShortName>
-					<CachePath>SFX/158534-Feet-Footsteps-Wood-Parquet-Boots-Rubber_Sole-Winter_Boots-Sorel-Walk-Loop_5877DD00.wem</CachePath>
+					<CachePath>SFX/158534-Feet-Footsteps-Wood-Parquet-Boots-Rubber_Sole-Winter_Boots-Sorel-Walk-Loop_07362CC0.wem</CachePath>
 				</File>
 				<File Id="60296415" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>player_sfx_fs_grass.wav</ShortName>
-					<CachePath>SFX/player_sfx_fs_grass_8D1B5DCA.wem</CachePath>
+					<CachePath>SFX/player_sfx_fs_grass_63B8490A.wem</CachePath>
 				</File>
 				<File Id="82582721" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>493091-BRLFX-TFV1-0275-Footsteps_-Jumping_in_fake_foliage_5.wav</ShortName>
-					<CachePath>SFX/493091-BRLFX-TFV1-0275-Footsteps_-Jumping_in_fake_foliage_5_0B5F554A.wem</CachePath>
+					<CachePath>SFX/493091-BRLFX-TFV1-0275-Footsteps_-Jumping_in_fake_foliage_5_ACCD8C0A.wem</CachePath>
 				</File>
 				<File Id="85091637" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>158534-Feet-Footsteps-Wood-Parquet-Boots-Rubber_Sole-Winter_Boots-Sorel-Walk-Loop.wav</ShortName>
-					<CachePath>SFX/158534-Feet-Footsteps-Wood-Parquet-Boots-Rubber_Sole-Winter_Boots-Sorel-Walk-Loop_860DEC36.wem</CachePath>
+					<CachePath>SFX/158534-Feet-Footsteps-Wood-Parquet-Boots-Rubber_Sole-Winter_Boots-Sorel-Walk-Loop_838830F6.wem</CachePath>
 				</File>
 				<File Id="133545714" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>amb_crickets_loop.wav</ShortName>
 					<Path>Media/133545714.wem</Path>
-					<CachePath>SFX/amb_crickets_loop_56CEF360.wem</CachePath>
+					<CachePath>SFX/amb_crickets_loop_D9B786A0.wem</CachePath>
 				</File>
 				<File Id="139545605" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>206531-122-Foley-Footsteps-Gravel-Boot-Jump-Land-On-One-Foot-Distance.wav</ShortName>
-					<CachePath>SFX/206531-122-Foley-Footsteps-Gravel-Boot-Jump-Land-On-One-Foot-Distance_15CBA02D.wem</CachePath>
+					<CachePath>SFX/206531-122-Foley-Footsteps-Gravel-Boot-Jump-Land-On-One-Foot-Distance_9C43076D.wem</CachePath>
 				</File>
 				<File Id="175638683" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>player_sfx_fs_grass.wav</ShortName>
-					<CachePath>SFX/player_sfx_fs_grass_1F35ACA8.wem</CachePath>
+					<CachePath>SFX/player_sfx_fs_grass_B4873668.wem</CachePath>
 				</File>
 				<File Id="210263574" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>amb_wind_loop.wav</ShortName>
 					<Path>Media/210263574.wem</Path>
-					<CachePath>SFX/amb_wind_loop_56CEF360.wem</CachePath>
+					<CachePath>SFX/amb_wind_loop_D9B786A0.wem</CachePath>
 				</File>
 				<File Id="241657862" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>206531-122-Foley-Footsteps-Gravel-Boot-Jump-Land-On-One-Foot-Distance.wav</ShortName>
-					<CachePath>SFX/206531-122-Foley-Footsteps-Gravel-Boot-Jump-Land-On-One-Foot-Distance_14607504.wem</CachePath>
+					<CachePath>SFX/206531-122-Foley-Footsteps-Gravel-Boot-Jump-Land-On-One-Foot-Distance_50D26AC4.wem</CachePath>
 				</File>
 				<File Id="264527229" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>493090-BRLFX-TFV1-0274-Footsteps_-Jumping_in_fake_foliage_4.wav</ShortName>
-					<CachePath>SFX/493090-BRLFX-TFV1-0274-Footsteps_-Jumping_in_fake_foliage_4_2B0C76D2.wem</CachePath>
+					<CachePath>SFX/493090-BRLFX-TFV1-0274-Footsteps_-Jumping_in_fake_foliage_4_7D4F2F92.wem</CachePath>
 				</File>
 				<File Id="275483781" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>player_sfx_fs_grass.wav</ShortName>
-					<CachePath>SFX/player_sfx_fs_grass_DD9F61CC.wem</CachePath>
+					<CachePath>SFX/player_sfx_fs_grass_D6A2920C.wem</CachePath>
 				</File>
 				<File Id="320626082" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>493090-BRLFX-TFV1-0274-Footsteps_-Jumping_in_fake_foliage_4.wav</ShortName>
-					<CachePath>SFX/493090-BRLFX-TFV1-0274-Footsteps_-Jumping_in_fake_foliage_4_50F6A3FB.wem</CachePath>
+					<CachePath>SFX/493090-BRLFX-TFV1-0274-Footsteps_-Jumping_in_fake_foliage_4_758753BB.wem</CachePath>
 				</File>
 				<File Id="468539822" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps-sneakers-coarse_stone-02.wav</ShortName>
-					<CachePath>SFX/Footsteps-sneakers-coarse_stone-02_88282C00.wem</CachePath>
+					<CachePath>SFX/Footsteps-sneakers-coarse_stone-02_F1D526C0.wem</CachePath>
 				</File>
 				<File Id="485656362" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>player_sfx_fs_grass.wav</ShortName>
-					<CachePath>SFX/player_sfx_fs_grass_060AD72E.wem</CachePath>
+					<CachePath>SFX/player_sfx_fs_grass_3F588BEE.wem</CachePath>
 				</File>
 				<File Id="496693836" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps-sneakers-coarse_stone-02.wav</ShortName>
-					<CachePath>SFX/Footsteps-sneakers-coarse_stone-02_273586BB.wem</CachePath>
+					<CachePath>SFX/Footsteps-sneakers-coarse_stone-02_911D28FB.wem</CachePath>
 				</File>
 				<File Id="497821080" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>player_sfx_fs_grass.wav</ShortName>
-					<CachePath>SFX/player_sfx_fs_grass_EFE55EAC.wem</CachePath>
+					<CachePath>SFX/player_sfx_fs_grass_5596266C.wem</CachePath>
 				</File>
 				<File Id="529475539" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>206531-122-Foley-Footsteps-Gravel-Boot-Jump-Land-On-One-Foot-Distance.wav</ShortName>
-					<CachePath>SFX/206531-122-Foley-Footsteps-Gravel-Boot-Jump-Land-On-One-Foot-Distance_0C4F4F84.wem</CachePath>
+					<CachePath>SFX/206531-122-Foley-Footsteps-Gravel-Boot-Jump-Land-On-One-Foot-Distance_C4F80144.wem</CachePath>
 				</File>
 				<File Id="567084423" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>158534-Feet-Footsteps-Wood-Parquet-Boots-Rubber_Sole-Winter_Boots-Sorel-Walk-Loop.wav</ShortName>
-					<CachePath>SFX/158534-Feet-Footsteps-Wood-Parquet-Boots-Rubber_Sole-Winter_Boots-Sorel-Walk-Loop_AA7C9780.wem</CachePath>
+					<CachePath>SFX/158534-Feet-Footsteps-Wood-Parquet-Boots-Rubber_Sole-Winter_Boots-Sorel-Walk-Loop_09F42840.wem</CachePath>
 				</File>
 				<File Id="578438028" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>player_sfx_fs_grass.wav</ShortName>
-					<CachePath>SFX/player_sfx_fs_grass_E1672663.wem</CachePath>
+					<CachePath>SFX/player_sfx_fs_grass_7244F3A3.wem</CachePath>
 				</File>
 				<File Id="610467507" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>48765-FOOTSTEPS_FEMALE_BOOTS_WITH_HEEL_WOOD_SURFACE_LAND_LIGHT_01.wav</ShortName>
-					<CachePath>SFX/48765-FOOTSTEPS_FEMALE_BOOTS_WITH_HEEL_WOOD_SURFACE_LAND_LIGHT_01_A6991509.wem</CachePath>
+					<CachePath>SFX/48765-FOOTSTEPS_FEMALE_BOOTS_WITH_HEEL_WOOD_SURFACE_LAND_LIGHT_01_63771DC9.wem</CachePath>
 				</File>
 				<File Id="664161855" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>493091-BRLFX-TFV1-0275-Footsteps_-Jumping_in_fake_foliage_5.wav</ShortName>
-					<CachePath>SFX/493091-BRLFX-TFV1-0275-Footsteps_-Jumping_in_fake_foliage_5_9B0247D9.wem</CachePath>
+					<CachePath>SFX/493091-BRLFX-TFV1-0275-Footsteps_-Jumping_in_fake_foliage_5_86807219.wem</CachePath>
 				</File>
 				<File Id="711126695" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>player_sfx_fs_grass.wav</ShortName>
-					<CachePath>SFX/player_sfx_fs_grass_017F81C6.wem</CachePath>
+					<CachePath>SFX/player_sfx_fs_grass_AA980A86.wem</CachePath>
 				</File>
 				<File Id="771519696" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps-sneakers-coarse_stone-02.wav</ShortName>
-					<CachePath>SFX/Footsteps-sneakers-coarse_stone-02_484DFA1D.wem</CachePath>
+					<CachePath>SFX/Footsteps-sneakers-coarse_stone-02_29B4BCDD.wem</CachePath>
 				</File>
 				<File Id="835983851" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps-sneakers-coarse_stone-02.wav</ShortName>
-					<CachePath>SFX/Footsteps-sneakers-coarse_stone-02_7F87785B.wem</CachePath>
+					<CachePath>SFX/Footsteps-sneakers-coarse_stone-02_FC3BA79B.wem</CachePath>
 				</File>
 				<File Id="869903214" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>158534-Feet-Footsteps-Wood-Parquet-Boots-Rubber_Sole-Winter_Boots-Sorel-Walk-Loop.wav</ShortName>
-					<CachePath>SFX/158534-Feet-Footsteps-Wood-Parquet-Boots-Rubber_Sole-Winter_Boots-Sorel-Walk-Loop_8038BE92.wem</CachePath>
+					<CachePath>SFX/158534-Feet-Footsteps-Wood-Parquet-Boots-Rubber_Sole-Winter_Boots-Sorel-Walk-Loop_568BBE52.wem</CachePath>
 				</File>
 				<File Id="913630101" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>206531-122-Foley-Footsteps-Gravel-Boot-Jump-Land-On-One-Foot-Distance.wav</ShortName>
-					<CachePath>SFX/206531-122-Foley-Footsteps-Gravel-Boot-Jump-Land-On-One-Foot-Distance_F27E5621.wem</CachePath>
+					<CachePath>SFX/206531-122-Foley-Footsteps-Gravel-Boot-Jump-Land-On-One-Foot-Distance_80E06DE1.wem</CachePath>
 				</File>
 				<File Id="915849515" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>47064-FOOTSTEPS_FEMALE_BOOTS_WITH_HEEL_WOOD_HOLLOW_SURFACE_LAND_01.wav</ShortName>
-					<CachePath>SFX/47064-FOOTSTEPS_FEMALE_BOOTS_WITH_HEEL_WOOD_HOLLOW_SURFACE_LAND_01_EC6E6B81.wem</CachePath>
+					<CachePath>SFX/47064-FOOTSTEPS_FEMALE_BOOTS_WITH_HEEL_WOOD_HOLLOW_SURFACE_LAND_01_201A3141.wem</CachePath>
 				</File>
 				<File Id="918016846" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>player_sfx_fs_grass.wav</ShortName>
-					<CachePath>SFX/player_sfx_fs_grass_A3ECB9B8.wem</CachePath>
+					<CachePath>SFX/player_sfx_fs_grass_44EF9C78.wem</CachePath>
 				</File>
 				<File Id="941842614" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>493092-BRLFX-TFV1-0276-Footsteps_-Jumping_in_fake_foliage_6.wav</ShortName>
-					<CachePath>SFX/493092-BRLFX-TFV1-0276-Footsteps_-Jumping_in_fake_foliage_6_AEE3B4FB.wem</CachePath>
+					<CachePath>SFX/493092-BRLFX-TFV1-0276-Footsteps_-Jumping_in_fake_foliage_6_58ACAB3B.wem</CachePath>
 				</File>
 				<File Id="951145813" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>493092-BRLFX-TFV1-0276-Footsteps_-Jumping_in_fake_foliage_6.wav</ShortName>
-					<CachePath>SFX/493092-BRLFX-TFV1-0276-Footsteps_-Jumping_in_fake_foliage_6_688D98A7.wem</CachePath>
+					<CachePath>SFX/493092-BRLFX-TFV1-0276-Footsteps_-Jumping_in_fake_foliage_6_B918E7E7.wem</CachePath>
 				</File>
 				<File Id="996358516" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps-sneakers-coarse_stone-02.wav</ShortName>
-					<CachePath>SFX/Footsteps-sneakers-coarse_stone-02_C0A7B833.wem</CachePath>
+					<CachePath>SFX/Footsteps-sneakers-coarse_stone-02_C4D76AF3.wem</CachePath>
 				</File>
 				<File Id="1041763821" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>158534-Feet-Footsteps-Wood-Parquet-Boots-Rubber_Sole-Winter_Boots-Sorel-Walk-Loop.wav</ShortName>
-					<CachePath>SFX/158534-Feet-Footsteps-Wood-Parquet-Boots-Rubber_Sole-Winter_Boots-Sorel-Walk-Loop_4229FD1D.wem</CachePath>
+					<CachePath>SFX/158534-Feet-Footsteps-Wood-Parquet-Boots-Rubber_Sole-Winter_Boots-Sorel-Walk-Loop_79A7F8DD.wem</CachePath>
 				</File>
 				<File Id="1054064076" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>amb_earlybirds_loop.wav</ShortName>
 					<Path>Media/1054064076.wem</Path>
-					<CachePath>SFX/amb_earlybirds_loop_56CEF360.wem</CachePath>
+					<CachePath>SFX/amb_earlybirds_loop_D9B786A0.wem</CachePath>
 				</File>
 				<File Id="1067088000" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps-sneakers-coarse_stone-02.wav</ShortName>
-					<CachePath>SFX/Footsteps-sneakers-coarse_stone-02_27F58F73.wem</CachePath>
+					<CachePath>SFX/Footsteps-sneakers-coarse_stone-02_BB24E2B3.wem</CachePath>
 				</File>
 			</Media>
 			<Plugins>
@@ -318,5 +318,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{50596E4A-AE6A-CDFA-89AF-FFDB2AC10829}</FileHash>
+	<FileHash>{57E7ED43-276C-31BB-0F12-9DC877E2529B}</FileHash>
 </SoundBanksInfo>

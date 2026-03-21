@@ -62,6 +62,21 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Utility" ID="{DF638918-BB43-4822-8709-C5FBB0176836}" ShortID="430104977">
+					<ChildrenList>
+						<Event Name="enable_microphone" ID="{CA146687-F43D-4087-A94C-6D458375C400}">
+							<ChildrenList>
+								<Action Name="" ID="{0EC398BE-2E09-44A2-9B35-33471BE7AD3B}" ShortID="774939689">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerMic" ID="{14D27B7A-A157-4B6B-91B2-B69FA6FA5075}" WorkUnitID="{2C94803C-245E-4BE2-BB55-3BD0715A5F45}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
