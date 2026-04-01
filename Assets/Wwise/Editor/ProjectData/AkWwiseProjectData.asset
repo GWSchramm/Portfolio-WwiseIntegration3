@@ -111,8 +111,28 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: b216b3ab01588548b0bb846f1e2680c3
     GuidInternal: 
-    m_lastTime: -8584274879035964050
+    m_lastTime: -8584266348286151287
     List:
+    - name: be_careful
+      guid: 813fa8731735b14d81893bd6894ac95e
+      id: 950269311
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b216b3ab01588548b0bb846f1e2680c3
+      - ElementName: Utility
+        ObjectType: 4
+        guid: 188963df43bb22488709c5fbb0176836
+      - ElementName: be_careful
+        ObjectType: 3
+        guid: 813fa8731735b14d81893bd6894ac95e
+      Path: Events\Default Work Unit\Utility\be_careful
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: enable_microphone
       guid: 876614ca3df48740a94c6d458375c400
       id: 3011241699

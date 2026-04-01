@@ -75,6 +75,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="be_careful" ID="{73A83F81-3517-4DB1-8189-3BD6894AC95E}">
+							<ChildrenList>
+								<Action Name="" ID="{B74104F5-BDF3-4CBA-B36A-BDE5B611AEEB}" ShortID="210746604">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="be-careful-now" ID="{7B752881-46BD-4336-A4A5-9C3ED618A70C}" WorkUnitID="{2C94803C-245E-4BE2-BB55-3BD0715A5F45}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

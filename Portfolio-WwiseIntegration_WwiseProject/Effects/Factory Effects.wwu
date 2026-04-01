@@ -106,7 +106,7 @@
 						</Effect>
 						<Effect Name="Noise_Gate_Fast_Attack" ID="{747A6B61-E953-474C-8227-672C884DA616}" PluginName="Wwise Expander" CompanyID="0" PluginID="109" PluginType="3">
 							<PropertyList>
-								<Property Name="Ratio" Type="Real32" Value="50"/>
+								<Property Name="Ratio" Type="Real32" Value="9.8"/>
 								<Property Name="ReleaseTime" Type="Real32" Value="0.1"/>
 								<Property Name="Threshold" Type="Real32" Value="-50"/>
 							</PropertyList>
